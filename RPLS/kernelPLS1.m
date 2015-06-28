@@ -1,6 +1,8 @@
 function [ W,P,Q,R,beta ] = kernelPLS1( X, Y, A )
 %Kernel algorithm of PLS
 %   Based on Dayal & MacGregor 1997, Improved PLS algorithms
+%	Author: Kuilin Chen
+%	Date: 8-Jun-2013
 %   Input
 %   X: X block data
 %   Y: Y block data

@@ -1,6 +1,8 @@
 function [ W,P,Q,R,beta, XX_new, XY_new ] = RPLS2(XX_old, XY_old, x_new, y_new, A, lambda )
 %Kernel algorithm of PLS
 %   Based on Dayal & MacGregor 1997, Improved PLS algorithms
+%	Author: Kuilin Chen
+%	Date: 8-Jun-2013
 %   Input
 %   XX_old: old XX kernel matrix 
 %   XY_old: old XY kernel matirx 
